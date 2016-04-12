@@ -7,7 +7,7 @@ The dockerfile allows you to setup Jenkins with pre-existing plugins. You can ed
 
 # Steps
 To build the image using the dockerfile, use the command:
-docker build -t jenkins-with-docker .t
+docker build -t jenkins-with-docker .
 
 To run the container, use the command:
 docker run -d -v /var/run/docker.sock:/var/run/docker.sock \
