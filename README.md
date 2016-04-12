@@ -10,6 +10,7 @@ To build the image using the dockerfile, use the command:
 docker build -t jenkins-with-docker .
 
 To run the container, use the command:
+
 docker run -d -v /var/run/docker.sock:/var/run/docker.sock \
                 -v $(which docker):/usr/bin/docker -p 8080:8080 jenkins-with-docker
 
