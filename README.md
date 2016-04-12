@@ -13,4 +13,5 @@ To run the container, use the command:
 docker run -d -v /var/run/docker.sock:/var/run/docker.sock \
                 -v $(which docker):/usr/bin/docker -p 8080:8080 jenkins-with-docker
 
-
+You should now have a jenkins container running on port 8080.
+You can now run docker commands with "sudo docker"
